@@ -21,7 +21,7 @@ We can use this "RANK" as a threshold to filter out noises. So we can figure out
 - Before you run it, make sure you have modified your SQL login credential and connection string settings
   - Change the connection string console application project (Progam.cs)
   ![image](https://user-images.githubusercontent.com/17281511/117517544-28674380-af51-11eb-8d61-3100d24868d3.png)
-  - Specify connection string in database project
+  - Specify connection string with right credendial in database project
 
 
 # How to run it
