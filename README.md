@@ -39,5 +39,5 @@ The whole process might take hours. Then we will see what are the duplicated one
 This is just a 90 minutes project to demonstrate how to utilize MS SQL full-text search to find similar advertisers.
 If we have more time, we can probably invoke 3rd party service (i.e. Google API or Wiki) to verify alias names.
 When our model data are good enough, we can create a decision engine to determine this part through cloud (i.e. Azure Cognitive Services.)
-
+You can locate the export file here.https://github.com/ultrma/WordAnalysis/blob/main/Database/RAWData/Export.txt
 
