@@ -14,8 +14,8 @@ We can use this "RANK" as a threshold to filter out noises. So we can figure out
 # Prerequisite
 - NET 5 (https://dotnet.microsoft.com/download/dotnet/5.0)
 - Microsoft SQL Server 2019
--   Download and install instance (https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
--   If you have issue to enable full text search feature, please refer to this aritcle. https://stackoverflow.com/questions/63766397/how-to-add-full-text-search-to-sql-server-express-2019-installation)
+  - Download and install instance (https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
+  - If you have issue to enable full text search feature, please refer to this aritcle. https://stackoverflow.com/questions/63766397/how-to-add-full-text-search-to-sql-server-express-2019-installation)
 - Visual Studio 2019
 - Checkout source code from this git repository
 - Before you run it, make sure you have modified your SQL login credential and connection string settings
