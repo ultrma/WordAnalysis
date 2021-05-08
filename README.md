@@ -26,13 +26,12 @@ We can use this "RANK" as a threshold to filter out noises. So we can figure out
 
 # How to run it
 1. Publish database project to your SQL server instance
-This will create a database named "WordAnalysis" and inject test data into this database.
-(This takes around two minutes on my local environment.)
+This will create a database named "WordAnalysis" and inject test data into this database. (This takes around two minutes on my local environment.)
 ![image](https://user-images.githubusercontent.com/17281511/117517283-6adc5080-af50-11eb-8839-803cf9dac2b0.png)
 
 2. Execute the console application.
 The console application will scan what we stored in the Advertiser table and populate similar ones in alias table.
-Then we will see what are the duplicated ones when console application is done.
+The whole process might take hours. Then we will see what are the duplicated ones when console application is done.
 
 
 # Conclusion
