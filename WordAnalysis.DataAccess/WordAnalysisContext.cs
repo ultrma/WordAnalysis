@@ -21,15 +21,7 @@ namespace WordAnalysis.DataAccess
         public virtual DbSet<Advertiser> Advertisers { get; set; }
         public virtual DbSet<Alias> Aliases { get; set; }
         public virtual DbSet<DuplicatedAdvertiser> DuplicatedAdvertisers { get; set;}
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            if (!optionsBuilder.IsConfigured)
-            {
-                optionsBuilder.UseSqlServer("Server=.;Database=WordAnalysis;User ID=sa;Password=Pwd!2345");
-            }
-        }
-
+   
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.HasAnnotation("Relational:Collation", "SQL_Latin1_General_CP1_CI_AS");
